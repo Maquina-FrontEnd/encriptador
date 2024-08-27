@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F5FA;
+    color: #0a3871;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.input-section, .output-section {
+    width: 40%;
+    padding: 20px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+.output-section {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    font-size: 27px;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: #0a3871;
+    background-color: #F4F5FA;
+}
+
+textarea::placeholder {
+    color: #0a3871;
+}
+
+.validation-message {
+    margin-top: 10px;
+    color: #0a3871;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.validation-message img {
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.button-group {
+    display: flex;
+    margin-top: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 16px;
+    border: 2px solid #0a3871;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #0a3871;
+    color: #ffffff;
+}
+
+#encrypt-btn {
+    margin-right: 10px;
+    background-color: #0a3871;
+    color: #ffffff;
+}
+
+#output-message {
+    text-align: center;
+}
+
+#output-message img {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+#output-message p {
+    margin: 0;
+    color: #13171b;
+}
+
+#copy-btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #0a3871;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #2E3A59;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#copy-btn:hover {
+    background-color: #0a3871;
+    color: #FFFFFF;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F4F5FA;
+    color: #6C757D;
+    font-size: 12px;
+}
+
